@@ -39,3 +39,19 @@ Comprendimos la diferencia entre funciones con retorno y funciones sin retorno, 
 Vimos cómo los parámetros y los valores de retorno son importantes para la comunicación entre funciones y el resto del programa.
 
 --------------------------------------------------------------------------------------------------------------------
+# __Aula 3__
+
+document.getElementById('reiniciar').removeAttribute('disabled'); remueve un atributo
+document.querySelector('#reiniciar').setAttribute('disabled','true');//setAttribute necesita 2 parametros para agregar un atributo a un elemento dom
+
+Para saber más: template strings
+Los Template strings, o plantillas de cadenas, son características comunes en muchos lenguajes de programación y sistemas de plantillas. Estas plantillas ofrecen una manera eficiente de crear cadenas de texto donde es posible incluir marcadores o espacios reservados que posteriormente serán reemplazados por valores concretos. Estos marcadores, por lo general, se encuentran delimitados por caracteres especiales, como llaves, corchetes o signos de dólar, y desempeñan el papel de puntos de inserción para datos dinámicos.
+para saber ams vea este [articulo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Template_literals)
+
+Lo que aprendimos
+
+En esta aula:
+
+Aprendimos cómo crear un programa para verificar si el 'intento' ingresado es igual al número secreto definido.Utilizamos estructuras condicionales para tomar decisiones basadas en el resultado de esta comparación;
+Creamos una variable para almacenar la cantidad de intentos realizados por el usuario;
+Hemos visto la importancia de consultar la documentación del lenguaje y las bibliotecas utilizadas en el desarrollo del programa. La documentación es una fuente valiosa de información que nos ayuda a comprender conceptos y a utilizar correctamente las funcionalidades disponibles.
