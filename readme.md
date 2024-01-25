@@ -55,3 +55,32 @@ En esta aula:
 Aprendimos cómo crear un programa para verificar si el 'intento' ingresado es igual al número secreto definido.Utilizamos estructuras condicionales para tomar decisiones basadas en el resultado de esta comparación;
 Creamos una variable para almacenar la cantidad de intentos realizados por el usuario;
 Hemos visto la importancia de consultar la documentación del lenguaje y las bibliotecas utilizadas en el desarrollo del programa. La documentación es una fuente valiosa de información que nos ayuda a comprender conceptos y a utilizar correctamente las funcionalidades disponibles.
+
+--------------------------------------------------------------------------------------------------------------------
+
+# __Aula 4__
+
+Contexto: Imagina que eres una persona desarrolladora que trabaja para Buscante, una importante tienda en línea de libros. Tu jefe te ha pedido que crees una función para sortear libros a los clientes. El sorteo debe hacerse de manera que todos los libros tengan la oportunidad de ser sorteados al menos una vez, y después de eso, el sorteo debe comenzar de nuevo. Recordaste la lección sobre la adición de la variable "numeroLimite" en el curso "Lógica de programación: explore funções e listas". ¿Cómo implementarás el sorteo del libro teniendo en cuenta lo que se enseñó?
+function sortearLibro() {
+    let libroElegido = parseInt(Math.random() * numeroLimite + 1);
+    let cantidadDeLibrosSorteados = listaDeLibrosSorteados.length;
+    if (cantidadDeLibrosSorteados == numeroLimite) {
+        listaDeLibrosSorteados = [];
+    }
+    // Código omitido
+}
+
+Correcta! Esta respuesta es correcta porque sigue la lógica enseñada en el curso de programación. En este código, se genera un número aleatorio para elegir un libro y luego se verifica si se ha alcanzado el límite de libros sorteados. Si es así, la lista de libros sorteados se reinicia para comenzar de nuevo el sorteo.
+
+
+ 09
+Lo que aprendimos
+PRÓXIMA ACTIVIDAD
+
+En esta aula:
+
+Aprendimos a mejorar el código existente, haciéndolo más eficiente y legible. En este caso, refactorizamos la función que realiza el sorteo del número secreto, haciéndola más sólida y asegurando que el número sorteado no se repita;
+Creamos una cuenta en Github con un repositorio para subir nuestro código a la nube y publicamos nuestro proyecto en la plataforma Vercel, lo que permite que sea accesible desde cualquier lugar.
+
+
+------------------------------------------------------------------------------------------------------------------
