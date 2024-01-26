@@ -40,7 +40,12 @@ function promedioArr(arr) {
     return total/arr.length;
 }
 
-///7
+function menorYMayor(arr) {
+    let narr = arr.sort((a,b) => a-b);
+    let menor = narr[0];
+    let mayor = narr[arr.length-1];
+    console.log(`el numero menor es ${menor} y el mayor es ${mayor}`);
+}
 
 function sumaTotal(arr) {
     let sumaTotal = 0;
